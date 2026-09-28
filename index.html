@@ -11,10 +11,13 @@ h2{font-size:1.2rem;margin:2.2rem 0 .5rem;border-bottom:2px solid var(--ink);pad
 p,li{color:var(--ink)} em{color:var(--sub)} a{color:var(--link)} li{margin:.3rem 0}
 </style></head><body><main>
 <h1>Fieldbook Privacy Policy</h1>
-<p><em>Last updated: September 24, 2026</em></p>
+<p><em>Last updated: September 28, 2026</em></p>
 <p>Fieldbook ("the app") is made by Joyn Creative ("we"). This page explains what the app does with your information.</p>
 <h2>Summary</h2>
 <p>Fieldbook is an offline, local-first app for tracking the places you have been. Your book is stored on your device, and the app works without an account. Sync is optional, Android-only, and disabled unless a build is configured for it. Signing in alone does not upload your book. When sync is available and you confirm the first-sync review, visits, notes, dates, goals and attached photo metadata (including any saved photo dates and coordinates) are copied to your Supabase account. Original photo files remain on the device; this version does not upload photo display copies or restore images on another device. Optional sign-in, ads, purchases and catalogue updates use network services as described below. The free version shows a small number of ads; a one-time purchase removes them.</p>
+<h2>Optional usage analytics</h2>
+<p>When a build is configured for usage analytics, Fieldbook sends a small set of action counts to PostHog to learn whether the book, search, and photo scan are working well. On Android this is on for travelers who choose “13 or older” at first launch; it can be turned off at any time in Settings. On iOS it stays off until a traveler explicitly allows it. It is always off for a traveler who chooses “under 13.” An unconfigured build sends no usage analytics.</p>
+<p>Events contain an action name, broad result or count category, app version, platform, time, and a random ID for this app installation. They do not contain place names or IDs, search words, trip dates, notes, photos, coordinates, email, or account IDs. PostHog receives ordinary connection metadata, including an IP address, when an event is sent; we disable GeoIP enrichment for these events. Failed events may remain on the device for up to seven days, capped at 100. Turning analytics off clears that queue and stops future sends. To request deletion of previously sent analytics, email <a href="mailto:Hello@joyncreative.com">Hello@joyncreative.com</a>; we may need your installation ID to locate those events. See <a href="https://posthog.com/privacy">PostHog's privacy policy</a>.</p>
 <h2>What stays on your device</h2>
 <ul>
 <li>The local book remains on this device, whether or not sync is enabled.</li>
@@ -46,7 +49,7 @@ p,li{color:var(--ink)} em{color:var(--sub)} a{color:var(--link)} li{margin:.3rem
 <h2>Purchases</h2>
 <p>Lifetime Pro is a one-time purchase handled by Google Play. Google Play processes payment credentials; Fieldbook does not receive your card or bank details. The app receives purchase information needed to grant or restore Pro and keeps a local record of the entitlement so it works offline.</p>
 <h2>Children</h2>
-<p>Fieldbook is not directed to children under 13 and we do not knowingly collect their information.</p>
+<p>Fieldbook is not directed to children under 13. A traveler who chooses “under 13” at first launch does not send Fieldbook usage analytics, and ads are not requested for that book. The book remains local unless a separate account or sync feature is used.</p>
 <h2>Your choices and rights</h2>
 <p>You control your book: export it, erase it, or uninstall the app to remove it from your device. Depending on where you live you may have rights to access, correct or delete personal information we hold (for example your account email). Email <a href="mailto:Hello@joyncreative.com">Hello@joyncreative.com</a> to exercise them.</p>
 <h2>Changes to this policy</h2>
